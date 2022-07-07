@@ -28,7 +28,7 @@ services:
       - mosquitto
 
   postgresql:
-    image: postgres:9.6-alpine
+    image: postgres
     environment:
       - POSTGRES_PASSWORD=root
     volumes:
